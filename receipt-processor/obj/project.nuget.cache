@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TnXC/yPjX8qWYZQ1OhNxxtD/vW0A4zew0RoDx/MwFszZq69lwrDaK9RfD5l7XIJqRiWj9qlUeEwtR6B8robNog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\Tiana project\\fetch\\fetch-receipt-processor-challenge\\receipt-processor\\receipt-processor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
