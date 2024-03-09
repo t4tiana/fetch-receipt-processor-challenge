@@ -1,14 +1,13 @@
 ﻿using receipt_processor.Models;
+using System.Collections.Generic;
 
 namespace receipt_processor.DAO
 {
     public interface IReceiptsDao
     {
-        //Receipt ProcessReceipts(Receipt receipt);
-
-        string GetPoints(Receipt receipt);
-
-        Receipt CreateReceipt(Receipt receipt);
-
+        Receipt CreateReceipt(ReceiptDto dto);
+        List<Receipt> ListReceipts();
+        Receipt GetReceiptById(string id);
+        Receipt CalculatePoints(Receipt receipt);
     }
 }
